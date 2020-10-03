@@ -1,0 +1,5 @@
+asyncio == 3.4.3
+
+discord.py == 1.4.1
+
+sqlite3
