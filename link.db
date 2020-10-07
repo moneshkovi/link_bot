@@ -1,87 +1,1 @@
-SQLite format 3   @     [                                                               [ .»Å ø /øR                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ÅÅwtablemessagemessageCREATE TABLE message(
-                teamname TEXT NOT NULL,
-                message TEXT NOT NULL
-                )ÅZÉtablepointspointsCREATE TABLE points(
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        role TEXT NOT NULL,
-        kpoints INT NOT NULL,
-        ppoints INT NOT NULL,
-        opoints INT NOT NULL
-        )P++Ytablesqlite_sequencesqlite_sequenceCREATE TABLE sqlite_sequence(name,seq)   ÅUtablepointspointsCREATE TABLE points(
-id INTEGER PRIMARY KEY AUTOINCREMENT,
-role TEXT NOT NULL,
-points INT NO        — Ú›—¿™∏¨                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     )Insane esports titans
- test 'Futurestation titan1   Ù Ù                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-points   	à àˆ~	≥	¶	ï	à                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  brehbrehtest 2test 2bruhbruhÉH'Ü{FuturestationLeader Name: 
-Player 1 IGN: 
-Player 1 ID: 
-Player 1 Discord: <@599884619139121152> 
-Player 2 IGN: 
-Player 2 ID: 
-Player 2 Discord : <@549282321304649739> 
-Player 3 IGN : 
-Player 3 ID : 
-Player 3 Discord: <@736492027381940264> 
-Player 4 IGN: 
-Player 4 ID: 
-Player 4 Discord: <@741306813965795430> 
-SUB Player 1 IGN: 
-SUB Player 1 ID: 
-SUB Player 1 Discord: <@739523961309626370>   
-SUB Player 2 IGN: 
-SUB Player 2 ID: 
-SUB Player 2 Discord:ÇuÖctitan1Leader Name:
-Player 1 IGN:
-Player 1 ID:
-Player 1 Discord: @mention
-Player 2 IGN:
-Player 2 ID:
-Player 2 Discord : @mention
-Player 3 IGN :
-Player 3 ID :
-Player 3 Discord: @mention
-Player 4 IGN:
-Player 4 ID:
-Player 4 Discord: @mention
-SUB Player 1 IGN:
-SUB Player 1 ID:
-SUB Player 1 Discord: @mention
-SUB Player 2 IGN:
-SUB Player 2 ID:
-SUB Player 2 Discord: @mentionÉ)ÜInsane esportsLeader Name: 
-Player 1 IGN: 
-Player 1 ID: 
-Player 1 Discord: @mention 
-Player 2 IGN: 
-Player 2 ID: 
-Player 2 Discord : @mention 
-Player 3 IGN : 
-Player 3 ID : 
-Player 3 Discord: @mention 
-Player 4 IGN: 
-Player 4 ID: 
-Player 4 Discord: @mention 
-SUB Player 1 IGN: 
-SUB Player 1 ID: 
-SUB Player 1 Discord: @mention 
-SUB Player 2 IGN: 
-SUB Player 2 ID: 
-SUB Player 2 Discord: @mentionÇuÖctitansLeader Name:
-Player 1 IGN:
-Player 1 ID:
-Player 1 Discord: @mention
-Player 2 IGN:
-Player 2 ID:
-Player 2 Discord : @mention
-Player 3 IGN :
-Player 3 ID :
-Player 3 Discord: @mention
-Player 4 IGN:
-Player 4 ID:
-Player 4 Discord: @mention
-SUB Player 1 IGN:
-SUB Player 1 ID:
-SUB Player 1 Discord: @mention
-SUB Player 2 IGN:
-SUB Player 2 ID:
-SUB Player 2 Discord: @mention
+
