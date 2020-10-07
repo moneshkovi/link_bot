@@ -172,4 +172,4 @@ async def link_in_B(ctx, time, *, link):
 
 
 
-client.run("NzM2NDkyMDI3MzgxOTQwMjY0.Xxvlpg.RjLx3y6csJbeCg8BBvdBs3ExFXs")
+client.run("NzU4MjkyNTI2NDg2MTI2NjMy.X2s08g.hhfQzCPkt0PoTaHGDNJCAdSrXWE")
