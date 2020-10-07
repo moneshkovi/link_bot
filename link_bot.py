@@ -9,20 +9,8 @@ from datetime import datetime, timezone, timedelta
 
 client = discord.Client()
 client = commands.Bot(".")
-
-@client.event
-async def on_ready():
-    print('Bot is online')
-
-@client.event
-async def on_message(message):
-
-    await client.process_commands(message)
-
 def utc_to_local(utc_dt):
     return utc_dt.replace(tzinfo=timezone.utc).astimezone(tz=None)
-
-
 #command which send link to your DM ..(works only in #link to lobby **F5**)
 @client.command()
 async def link_A(ctx):
