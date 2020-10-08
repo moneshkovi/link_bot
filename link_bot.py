@@ -25,9 +25,11 @@ async def link(ctx):
             if result.fetchone() is not None and result is not None:
                 for row in result.fetchone():
                         em.add_field(name="Details", value=f"{row}")
+                
             else:
                 em.add_field(name="link", value="MATCH HAS STARTED OR ROOM HAS NOT BEEN CREATED YET")
             msg = await ctx.author.send(embed=em)
+            await ctx.author.send("Link has been sent.")
             conn.close()
             return
     print(user.roles)
@@ -63,7 +65,7 @@ async def link_in(ctx, time, *, link):
     elif seconds > 7776000:
         embed.add_field(name='Warning', value='You have specified a too long duration!\nMaximum duration is 90 days.')
     else:
-        print("done")
+        print("Link has been Added")
         x = utc_to_local(ctx.message.created_at)+timedelta(seconds=seconds)
         x= x.strftime("%B %d, %Y %I:%M%p")
         conn = sqlite3.connect('link.db')
@@ -76,10 +78,10 @@ async def link_in(ctx, time, *, link):
         print ("Opened database successfully")
         conn.execute("INSERT INTO links(link, time, grou) VALUES (:teamname, :message, :grou)", {"teamname": link, "message": x, "grou":"A"})
         conn.commit()
-
         await asyncio.sleep(seconds+120)
         print("DELETE")
         conn.execute("DELETE FROM links where link = :link", {"link":link})
+        print ("Link has been deleted successfully")
         conn.commit()
         conn.close()
 
@@ -87,11 +89,9 @@ async def link_in(ctx, time, *, link):
 async def delete_link(ctx, link):
     conn = sqlite3.connect('link.db')
     conn.execute("DELETE FROM links where link = :link", {"link":link})
-    print ("Opened database successfully")
+    print ("Link has been deleted successfully")
     conn.commit()
     conn.close()
-
-
 
 
 client.run("NzU4MjkyNTI2NDg2MTI2NjMy.X2s08g.hhfQzCPkt0PoTaHGDNJCAdSrXWE")
