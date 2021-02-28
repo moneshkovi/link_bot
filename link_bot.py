@@ -94,4 +94,4 @@ async def delete_link(ctx, link):
     conn.close()
 
 
-client.run("NzU4MjkyNTI2NDg2MTI2NjMy.X2s08g.hhfQzCPkt0PoTaHGDNJCAdSrXWE")
+client.run("Token")
