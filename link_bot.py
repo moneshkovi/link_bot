@@ -12,6 +12,7 @@ client = commands.Bot(".")
 def utc_to_local(utc_dt):
     return utc_dt.replace(tzinfo=timezone.utc).astimezone(tz=None)
 
+
 #command which send link to your DM ..(works only in #link to lobby **F5**)
 @client.command()
 async def link(ctx):
